@@ -1,24 +1,32 @@
 import './main.css';
 import { useEffect, useState } from 'react';
 
+import { useNavigate } from 'react-router-dom';
+
 const Main = () => {
-    const [welcome, setWelcome] = useState(true);
     const [right, setRight] = useState(true);
     const [left, setLeft] = useState(true);
-    
+ 
+    const navigate = useNavigate();
 
-    useEffect(() =>{
-        setTimeout(() => {
+    setTimeout(() => {
             setRight(false)
             setLeft(false)
+            
         }, 2000);
-    }, [])
+
+        setTimeout(() => {
+            navigate('/home')
+        }, 2700);
+
     const rightClasses = `${right ? 'right' : 'right2'}`;
     const leftClasses = `${left ? 'left' : 'left2'}`;
 
 
+
   return (
     <>
+ 
   <div className='mainWrapper'>
     <div className={leftClasses}>
       <h1 className="title"> WEL </h1>
@@ -28,9 +36,6 @@ const Main = () => {
     </div>
   </div>
 
-  <div className='content'>
-    <p>Content of main</p>
-  </div>
 </>
 )
 }
