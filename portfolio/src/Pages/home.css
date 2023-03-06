@@ -4,10 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;;
 }
 .homeContent{
-    margin-right: 10px;
     border-bottom: #ff5851 solid 2px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,15 +19,18 @@ body{
     border-left: #ff5851 double 5px;
     padding-left: 10px;
     color: #ff5851;
-    margin-left: 20px;transform:
-    translateX(50%);
+    margin-left: 10%;
+    transform:
+    translateX(200%);
    
 }
 .mainContentAfter{
     border-left: #ff5851 double 5px;
-    padding-left: 10px;
+    border-top: #ff5851 double 5px;
+    padding-top: 40px;
+    padding-left: 40px;
     color: #ff5851;
-    margin-left: 20px;
+    margin-left: 5%;
     transform: translateX(0%);
     transition: ease-in 0.6s;
 
@@ -35,10 +38,70 @@ body{
 .introduction{
     max-width: 400px;
 }
-.homeH1{
-    font-size: 70px;
+.homeH1Wrapper{
+    display: flex;
+    margin-bottom: 10%;
 }
-.home h2{
+.homeH1Wrapper:hover{
+    width:150px;
+}
+.homeH1{
+    cursor:default;
+    height: 85px;
+    font-size: 65px;
+    transition: 1s;
+    margin:0;
+}
+.homeH1:hover{
+    font-size: 85px;
+    transition: 0.9s;
+    transition-duration: 0.5s;
+    margin:0;
+    color:#f8aaa7;
+    opacity:75%
+}
+.homeH2Wrapper{
+    display: flex;
+    margin-bottom: 10%;
+}
+.homeH2Wrapper:hover{
+    width:250px;
+}
+.homeH2{
+    cursor:default;
+    height: 55px;
+    font-size: 35px;
+    transition: 2s;
+    margin:0;
+}
+.homeH2:hover{
     font-size: 50px;
+    transition: 0.5s;
+    transition-duration: 0.5s;
+    margin:0;
+    color:#f8aaa7;
+    opacity:75%
+}
+.homeFooter{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    right:4%;
+    bottom:55px;
+    border-bottom: #ff5851  5px double;
+    border-right: #ff5851  5px double;
+    transform: translateX(-800%);
 }
 
+.homeFooterAfter{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    right:4%;
+    bottom:55px;
+    border-bottom: #ff5851  5px double;
+    border-right: #ff5851  5px double;
+    transform: translateX(0%);
+    transition: ease-in 0.6s;
+
+}

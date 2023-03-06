@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  
+}
+.iconsWrapper{
+    display: grid;
+    gap: 30px;
+    margin-right: 4%;
+}
+
+.icons{
+    color: white; 
+    height: 35px; 
+    width: 35px; 
+    transition: 0.8s;
+    
+}
+.icons:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    height: 35px;
+    width: 31px;
+}
+.icons:active{
+    width:20px;
+}
+
+

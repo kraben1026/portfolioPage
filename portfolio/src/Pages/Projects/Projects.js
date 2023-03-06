@@ -1,8 +1,24 @@
-import SidebarPro from "../../components/Sidebar"
+import Aside from "../../components/Aside"
+import Header from "../../components/Header"
 
 const Projects = () => {
   return (
-    <div><SidebarPro></SidebarPro></div>
+    <>
+    <div><Header/>
+  <div className='homeContent'>
+           
+    <main>
+    
+
+    </main>
+    <footer ></footer>
+    <Aside/>
+    
+  </div>    
+  </div> 
+  
+ 
+  </>
   )
 }
 
