@@ -1,12 +1,13 @@
 import { useNavigate } from "react-router-dom"
+import SidebarPro from "../components/Sidebar";
 
 const Contact = () => {
     const navigate = useNavigate();
 
   return (
     <>
-    <div>Contact</div>
-    <button onClick={() => navigate('/home') }>Collapse</button>
+    <div><SidebarPro></SidebarPro></div>
+    
     </>
   )
 }
