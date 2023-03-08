@@ -9,7 +9,6 @@ const Header = () => {
       }
   return (
     <div className='headerContainer'>
-  
       <h3 className='headerH3' onClick={() => toGo('/home')}> Home</h3>
       <h3 className='headerH3' onClick={() => toGo('/skills')}> Skills </h3>
       <h3 className='headerH3' onClick={() => toGo('/projects')}> Projects </h3>

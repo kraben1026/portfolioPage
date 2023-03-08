@@ -1,25 +1,19 @@
-import Aside from "../../components/Aside"
-import Header from "../../components/Header"
+import Aside from "../../components/Aside";
+import Header from "../../components/Header";
 
 const Projects = () => {
   return (
     <>
-    <div><Header/>
-  <div className='homeContent'>
-           
-    <main>
-    
+      <div>
+        <Header />
+        <div className="homeContent">
+          <main></main>
+          <footer></footer>
+          <Aside />
+        </div>
+      </div>
+    </>
+  );
+};
 
-    </main>
-    <footer ></footer>
-    <Aside/>
-    
-  </div>    
-  </div> 
-  
- 
-  </>
-  )
-}
-
-export default Projects
+export default Projects;

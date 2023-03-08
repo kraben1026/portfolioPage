@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.formContent {
+  border-left: #ff5851 double 5px;
+  padding-left: 10px;
+  color: #ff5851;
+  margin-left: 10%;
+  transform: translateX(200%);
+}
+.formContentAfter {
+  display: flex;
+  flex-direction: column;
+  border-left: #ff5851 double 5px;
+  border-top: #ff5851 double 5px;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #ff5851;
+  margin-left: 5%;
+  transform: translateX(0%);
+  transition: ease-in 0.6s;
+}
+.contactInfo {
+  color: #ff5851;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+#contactTextArea {
+  min-height: 30px;
+  min-width: 200px;
+  max-height: 300px; /* set the maximum height */
+  max-width: 300px;
+}
+label {
+  margin-bottom: 5px;
+}
+input {
+  border-radius: 10px;
+  margin-bottom: 5px;
+  height: 25px;
+  background-color: #ebe5e5;
+  outline: none;
+}
+textarea {
+  background-color: #ebe5e5;
+  outline: none;
+}
+.sendBtn {
+  background-color: #ff5851;
+  border: none;
+  font-weight: bolder;
+  opacity: 80%;
+  margin-top: 5px;
+  width: 60px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+}
+.sendBtn:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.sendBtn:active {
+  width: 58px;
+  opacity: 60%;
+  transition: 0.1s;
+}
