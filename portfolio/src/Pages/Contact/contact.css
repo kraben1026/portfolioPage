@@ -24,8 +24,7 @@ body {
 }
 .contactInfo {
   color: #ff5851;
-  margin-left: 5%;
-  margin-top: 10%;
+  margin:5%;
 }
 
 #contactTextArea {

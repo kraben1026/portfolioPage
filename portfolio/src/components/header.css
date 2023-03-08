@@ -1,11 +1,9 @@
 .headerContainer {
   display: flex;
   justify-content: flex-end;
-  gap: 30px;
   margin-top: 5%;
 }
 .headerH3 {
-  width: auto;
   color: #ff5851;
   transition: 0.8s;
   margin-right: 10px;
@@ -23,3 +21,8 @@
   font-size: 15px;
   transition: 0.8s;
 }
+@media screen and (min-width: 660px) {
+    .headerContainer {
+      gap: 5%;
+    }
+  }

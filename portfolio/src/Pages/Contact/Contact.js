@@ -41,6 +41,7 @@ const Contact = () => {
               onClick={(event) => {
                 event.preventDefault();
                 console.log(name, email, message);
+                alert('Your message has been sent!')
               }}
             >
               Send
