@@ -12,11 +12,13 @@ import { ReactComponent as Tailwind } from '../../assets/tailwindcss.svg';
 import { ReactComponent as TS } from '../../assets/typescript.svg';
 import Button from "../../components/Button";
 import { useNavigate } from "react-router-dom";
+import Animation from "../../components/animation/Animation";
 
 const About = () => {
   const navigate = useNavigate();
   return (
     <>
+    <Animation/>
       <div className="contentWrapper">
         <Header />
         <div className="homeContent">

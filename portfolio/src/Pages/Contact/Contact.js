@@ -3,6 +3,8 @@ import Aside from "../../components/Aside";
 import Header from "../../components/Header";
 import { useState, useEffect } from "react";
 import "./contact.css";
+import Button from "../../components/Button";
+import Animation from "../../components/animation/Animation";
 const Contact = () => {
   const navigate = useNavigate();
   const [formContent, setformContent] = useState(true);
@@ -20,6 +22,7 @@ const Contact = () => {
   const footerClass = `${footer ? "homeFooter" : "homeFooterAfter"}`;
   return (
     <>
+    <Animation/>
       <div>
         <Header />
         <div className="homeContent">
@@ -36,20 +39,9 @@ const Contact = () => {
               rows="10"
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <button
-              className="sendBtn"
-              onClick={(event) => {
-                event.preventDefault();
-                console.log(name, email, message);
-                alert('Your message has been sent!')
-              }}
-            >
-              Send
-            </button>
+            <Button text = 'send'/>
           </form>
-          <aside>
             <Aside />
-          </aside>
         </div>
         <h2 className="contactInfo">
           If you want to send me a message please fill this form!{" "}

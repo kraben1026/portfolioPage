@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import Header from "../components/Header";
 import Aside from "../components/Aside";
+import Animation from "../components/animation/Animation";
 
 const Home = () => {
   const [mainContent, setMainContent] = useState(true);
@@ -19,6 +20,7 @@ const Home = () => {
   const footerClass = `${footer ? "homeFooter" : "homeFooterAfter"}`;
   return (
     <>
+    <Animation/>
       <div>
         <Header />
         <div className="homeContent">
