@@ -1,18 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Yellowtail&display=swap');
+
 .headerContainer {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 5%;
+  justify-content: space-between;
+  margin-top: 2%;
+  align-items: center;
+}
+.headerTitleWrapper{
+  flex: 1;
+}
+.headerTitle{
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+  margin-left:3%;
+  color: #ff5851;
+  opacity: 60%;
+}
+.headerTitle:hover{
+  opacity: 100%;
+  cursor: pointer;
+  transition: 0.5s;
 }
 .headerH3 {
+  font-family: 'Cabin Sketch', cursive;
   color: #ff5851;
+  font-size: 30px;
   transition: 0.8s;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .headerH3:hover {
   margin-right: 10px;
   width: auto;
   cursor: pointer;
-  font-size: 21px;
+  font-size: 31px;
   transition: 0.6s;
   color: #f8aaa7;
   opacity: 75%;
@@ -21,7 +41,18 @@
   font-size: 15px;
   transition: 0.8s;
 }
-@media screen and (min-width: 660px) {
+  @media screen and (max-width: 680px) {
+    .headerTitleWrapper{
+      display: none;
+    }
+    .headerContainer {
+      width:fit-content;
+    }
+      .headerTitle{
+        display: none;
+      }
+    }
+  @media screen and (max-height: 280px) {
     .headerContainer {
       gap: 5%;
     }

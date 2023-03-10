@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Yellowtail&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif !important;
 }
 .iconsWrapper {
   display: grid;
@@ -16,12 +15,12 @@
   height: 35px;
   width: 35px;
   transition: 0.8s;
+  opacity: 60%;
 }
 .icons:hover {
   cursor: pointer;
-  transition: 0.3s;
-  height: 35px;
-  width: 31px;
+  transition: 0.2s;
+  opacity: 100%;
 }
 .icons:active {
   width: 20px;

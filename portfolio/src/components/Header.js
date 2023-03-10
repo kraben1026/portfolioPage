@@ -9,8 +9,11 @@ const Header = () => {
       }
   return (
     <div className='headerContainer'>
+      <div className="headerTitleWrapper">
+        <h2 className='headerTitle'>bencekracsko.dev</h2>
+      </div>
       <h3 className='headerH3' onClick={() => toGo('/home')}> Home</h3>
-      <h3 className='headerH3' onClick={() => toGo('/skills')}> Skills </h3>
+      <h3 className='headerH3' onClick={() => toGo('/about')}> About </h3>
       <h3 className='headerH3' onClick={() => toGo('/projects')}> Projects </h3>
       <h3 className='headerH3' onClick={() => toGo('/contact')}> Contact </h3>
       <h3 className='headerH3' onClick={() => toGo('/blog')}> Blog</h3>

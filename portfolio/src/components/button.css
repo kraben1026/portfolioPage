@@ -1,0 +1,19 @@
+button{
+    color: #ff5851;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin:10%;
+    font-weight: bolder;
+    opacity: 70%;
+}
+button:hover{
+    opacity: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:active{
+    transition: 0.6s;
+    font-size: 82%;
+}

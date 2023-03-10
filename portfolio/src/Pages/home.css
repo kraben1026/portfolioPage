@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Yellowtail&display=swap');
 
-body {
-  font-family: "Roboto", sans-serif;
-}
+
 .homeContent {
-  border-bottom: #ff5851 solid 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 .mainContent {
   border-left: #ff5851 double 5px;
@@ -43,6 +40,7 @@ body {
   width: 150px;
 }
 .homeH1 {
+  font-family: 'Cabin Sketch', cursive;
   cursor: default;
   height: 85px;
   font-size: 65px;
@@ -58,6 +56,7 @@ body {
   opacity: 75%;
 }
 .homeH2Wrapper {
+  font-family: 'Cabin Sketch', cursive;
   display: flex;
   margin-bottom: 10%;
 }
@@ -119,4 +118,5 @@ body {
     .homeH2:hover{
         pointer-events: none;
     }
+
   }
