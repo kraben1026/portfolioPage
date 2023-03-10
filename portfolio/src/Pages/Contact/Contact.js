@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import "./contact.css";
 import Button from "../../components/Button";
 import Animation from "../../components/animation/Animation";
+import LightDark from "../../components/lightDark/LightDark"
 const Contact = () => {
   const navigate = useNavigate();
   const [formContent, setformContent] = useState(true);
@@ -26,6 +27,9 @@ const Contact = () => {
       <div>
         <Header />
         <div className="homeContent">
+        <h2 className="contactInfo">
+          If you want to send me a message please fill this form!{" "}
+        </h2>
           <form action="" className={formContentClass}>
             <label htmlFor="">Name</label>
             <input type="text" onChange={(e) => setName(e.target.value)} />
@@ -43,10 +47,10 @@ const Contact = () => {
           </form>
             <Aside />
         </div>
-        <h2 className="contactInfo">
-          If you want to send me a message please fill this form!{" "}
-        </h2>
-        <footer className={footerClass}></footer>
+        
+        <footer className={footerClass}>
+        <LightDark />
+        </footer>
       </div>
     </>
   );

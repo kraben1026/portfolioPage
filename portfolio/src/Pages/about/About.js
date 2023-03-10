@@ -25,7 +25,7 @@ const About = () => {
           <main className="aboutContent">
             <div className="aboutText">
             As a full stack developer, I bring a diverse range of technical skills to the table,
-            including proficiency in HTML, CSS, JavaScript, React, Angular, Node.js, and various back-end languages.
+            including proficiency in Typescript, JavaScript, React, Node.js, or C#. I'm not scared to bring the design with CSS frameworks like Tailwind.
             I am constantly expanding my skill set to keep up with emerging technologies and industry trends.
             This passion for learning ensures that I am always equipped to handle the latest challenges
             in web development and deliver top-quality solutions to my clients.
