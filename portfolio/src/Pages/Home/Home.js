@@ -1,29 +1,32 @@
 import "./home.css";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
-import Header from "../components/Header";
-import Aside from "../components/Aside";
-import Animation from "../components/animation/Animation";
+import LightDark from "../../components/lightDark/LightDark";
+import Header from "../../components/Header";
+import Aside from "../../components/Aside";
+import Animation from "../../components/animation/Animation";
 
 const Home = () => {
   const [mainContent, setMainContent] = useState(true);
   const [footer, setFooter] = useState(true);
   const navigate = useNavigate();
+
   useEffect(() => {
     setMainContent(false);
     setFooter(false);
   }, []);
+
   const mainContentClass = `${
     mainContent ? "mainContent" : "mainContentAfter"
   }`;
   const footerClass = `${footer ? "homeFooter" : "homeFooterAfter"}`;
   return (
     <>
-    <Animation/>
+      <Animation />
       <div>
         <Header />
-        <div className="homeContent">
+        <LightDark />
+        <div className={"homeContent"}>
           <main className={mainContentClass}>
             <div className="homeH1Wrapper">
               <h1 className="homeH1">I</h1>
@@ -59,7 +62,7 @@ const Home = () => {
               can work with other creative minds.
             </p>
           </main>
-          <footer className={footerClass}></footer>
+          
           <Aside />
         </div>
       </div>

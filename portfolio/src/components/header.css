@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Yellowtail&display=swap");
 
 .headerContainer {
   display: flex;
@@ -6,23 +6,23 @@
   margin-top: 2%;
   align-items: center;
 }
-.headerTitleWrapper{
+.headerTitleWrapper {
   flex: 1;
 }
-.headerTitle{
-  font-family: 'Yellowtail', cursive;
+.headerTitle {
+  font-family: "Yellowtail", cursive;
   font-size: 30px;
-  margin-left:3%;
+  margin-left: 3%;
   color: #ff5851;
   opacity: 60%;
 }
-.headerTitle:hover{
+.headerTitle:hover {
   opacity: 100%;
   cursor: pointer;
   transition: 0.5s;
 }
 .headerH3 {
-  font-family: 'Cabin Sketch', cursive;
+  font-family: "Cabin Sketch", cursive;
   color: #ff5851;
   font-size: 30px;
   transition: 0.8s;
@@ -41,19 +41,19 @@
   font-size: 15px;
   transition: 0.8s;
 }
-  @media screen and (max-width: 680px) {
-    .headerTitleWrapper{
-      display: none;
-    }
-    .headerContainer {
-      width:fit-content;
-    }
-      .headerTitle{
-        display: none;
-      }
-    }
-  @media screen and (max-height: 280px) {
-    .headerContainer {
-      gap: 5%;
-    }
+@media screen and (max-width: 680px) {
+  .headerTitleWrapper {
+    display: none;
   }
+  .headerContainer {
+    width: fit-content;
+  }
+  .headerTitle {
+    display: none;
+  }
+}
+@media screen and (max-height: 280px) {
+  .headerContainer {
+    gap: 5%;
+  }
+}

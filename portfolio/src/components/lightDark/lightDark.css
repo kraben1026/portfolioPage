@@ -1,21 +1,20 @@
-.lightDark{
-    text-align: center;
-    margin-bottom: 0;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-.light, .dark{
-    color: white;
-    height: 20px;
-    width: 20px;
-    opacity: 60%;
-}
-.light:hover, .dark:hover{
-    color: white;
-    height: 21px;
-    width: 21px;
-    opacity: 100%;
-    cursor: pointer;
-}
 
+.lightDark {
+  text-align: center;
+}
+.light, .dark {
+  color: white;
+  height: 20px;
+  width: 20px;
+  opacity: 60%;
+  position: absolute;
+  right: 3%;
+  top:40%;
+}
+.light:hover, .dark:hover {
+  color: white;
+  height: 21px;
+  width: 21px;
+  opacity: 100%;
+  cursor: pointer;
+}

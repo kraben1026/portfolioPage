@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap");
-body {
-  background-color: #0d0c12;
-
-}
 .mainWrapper {
   width: 100%;
   display: flex;

@@ -1,5 +1,5 @@
 import "./main.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 
@@ -17,6 +17,8 @@ const Main = () => {
   setTimeout(() => {
     navigate("/home");
   }, 2700);
+
+ 
 
   const rightClasses = `${right ? "right" : "right2"}`;
   const leftClasses = `${left ? "left" : "left2"}`;

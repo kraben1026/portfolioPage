@@ -9,7 +9,6 @@ body {
   color: #ff5851;
   margin-left: 10%;
   transform: translateX(200%);
-  
 }
 .formContentAfter {
   margin-right: 30%;
@@ -26,10 +25,9 @@ body {
 }
 .contactInfo {
   color: #ff5851;
-  margin:5%;
+  margin: 5%;
   max-width: 300px;
 }
-
 #contactTextArea {
   min-height: 30px;
   min-width: 200px;

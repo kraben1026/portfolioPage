@@ -17,12 +17,28 @@
   transition: 0.8s;
   opacity: 60%;
 }
+
 .icons:hover {
   cursor: pointer;
   transition: 0.2s;
   opacity: 100%;
 }
 .icons:active {
+  width: 20px;
+}
+.iconsLight{
+  color: black;
+  height: 35px;
+  width: 35px;
+  transition: 0.8s;
+  opacity: 60%;
+}
+.iconsLight:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  opacity: 100%;
+}
+.iconsLight:active {
   width: 20px;
 }
 
